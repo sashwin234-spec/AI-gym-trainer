@@ -12,7 +12,7 @@ def sync_metrics_update(context):
 
     if not processor:
         return 
-    st.write("DEBUG METRICS:", latest_metrics)
+    
     exercise = st.session_state.get("exercise_type")
 
     if not exercise:
